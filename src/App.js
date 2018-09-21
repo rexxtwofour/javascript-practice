@@ -10,6 +10,8 @@ class App extends Component {
 
 
   render() {
+
+//Array Methods     
     const doubleYou = 'this string';
     console.log(doubleYou);
 
@@ -51,9 +53,27 @@ console.log(myChildren);
 const fruits = [ 'banana', 'orange', 'lemon', 'apple', 'mango'];
 // const citrus = fruits.slice(2,4);
 
-const moreFruits = fruits.toString();
- 
-console.log(moreFruits);
+// const moreFruits = fruits.toString();
+
+// const moreFruits = fruits.toString();
+
+// console.log(moreFruits);
+
+// fruits.sort(); 
+
+ fruits.sort().reverse();
+
+console.log(fruits);
+
+
+
+
+
+
+
+//string methods
+
+
 
 
 
