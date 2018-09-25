@@ -13,7 +13,7 @@ class App extends Component {
 
 //Array Methods     
     const doubleYou = 'this string';
-    console.log(doubleYou);
+    // console.log(doubleYou);
 
      const firstString = ' this is the first string';
     
@@ -39,7 +39,7 @@ class App extends Component {
 
   arr.splice (3, 2); 
 
- console.log(arr);
+//  console.log(arr);
 
 
 const thisArray = [ 'cecy', 'lone'];
@@ -48,7 +48,7 @@ const anotherArray = [ 'robin', 'morgan'];
 
 const myChildren = thisArray.concat(thatArray, anotherArray);
 
-console.log(myChildren); 
+// console.log(myChildren); 
 
 const fruits = [ 'banana', 'orange', 'lemon', 'apple', 'mango'];
 // const citrus = fruits.slice(2,4);
@@ -63,7 +63,7 @@ const fruits = [ 'banana', 'orange', 'lemon', 'apple', 'mango'];
 
  fruits.sort().reverse();
 
-console.log(fruits);
+// console.log(fruits);
 
 
 
@@ -72,6 +72,63 @@ console.log(fruits);
 
 
 //string methods
+
+let stringOne = 'freeCodeCamp is the best place to learn '
+let stringTwo = 'frontend and backend development'
+
+//charAt()
+// returns a character at a specified position
+console.log(stringOne.charAt(1))
+
+//charCodeAt()
+//returns unit code character for 'r' which would return 114
+console.log(stringOne.charCodeAt(1))
+
+//concat()
+//joins two or more strings
+console.log(stringOne.concat(stringTwo))
+
+//includes()
+//this methods checks to see if a specific set of characters are in a string then returns a boolean value
+console.log(stringTwo.includes('end'))
+
+
+//indexOf()
+//returns the index of the first found occurrence of characters which will be the specific character count
+console.log(stringTwo.indexOf('end'))
+
+
+//lastIndexOf()
+//returns the last index found occurrence of characters which will be the specific character count interger
+console.log(stringTwo.lastIndexOf('end'))
+
+//match()
+//match is going to search a string against a regular expression 
+//returns an array of each match which shows twice for this example
+console.log(stringTwo.match(/end/g))
+
+//repeat()
+//returns a new string with the number of specified copys of an exsisting string
+console.log(stringOne.repeat(3))
+
+
+//replace()
+//replace searches a string for specified value or regex and returns a new string where specified values exist
+console.log(stringTwo.replace(/end/g, 'END'))
+
+//search()
+// searches a string for a specified value or regex and returns the position of the match which is the index
+console.log(stringTwo.search('end'))
+
+//
+
+
+//object methods 
+//object destructuring
+//function practice- es6
+
+
+
 
 
 
