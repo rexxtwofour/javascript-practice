@@ -130,8 +130,35 @@ console.log(stringTwo.search('end'))
 
 
 
+//es6 template literals 
+
+let name = ['david', 'mike', 'johnny'];
+let calledOut = ['ya wise guy','ya little jerk', 'ya fool']
+
+let template = `Hey ${name[2]},This is a simple template in javascript ${calledOut[2]}`;
 
 
+
+console.log(template);
+
+
+//es6 default parameters and spread operator
+
+function greet ($greeting = 'hey this as default greeting'  ){
+  console.log($greeting);
+}
+
+greet();
+
+
+let args1 = [1,2,3];
+let args2 = [4,5,6];
+
+const test = () => {
+  console.log(args1+','+args2);
+}
+
+test(...args1,...args2);
 
 
     return (
